@@ -1,0 +1,25 @@
+/* mobile devices */
+@media (min-width: 320px) and (max-width: 480px) {
+}
+/* tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+}
+/* small screens, laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+/* desktops, large screens */
+@media (min-width: 1025px) and (max-width: 1200px) {
+}
+/* extra large screens, TV */
+@media (min-width: 1201px) {
+}
+h1, h2, p {
+  text-align: center;
+}
+/* img element should responsively resize relative to the width of its parent element, without exceeding its original size */
+/* the img element should be centered within its parent element */
+#image {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
