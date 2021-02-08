@@ -14,6 +14,10 @@
 @media (min-width: 1201px) {
 }
 body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0px;
   background-color: #eaeae2;
 }
 #main {
@@ -24,10 +28,78 @@ body {
 h1, h2, p {
   text-align: center;
 }
+h1 {
+  color: #d13833;
+}
+a {
+  color: #b94681;
+}
 /* img element should responsively resize relative to the width of its parent element, without exceeding its original size */
 /* the img element should be centered within its parent element */
+
 #image {
   display: block;
   max-width: 100%;
   margin: 0 auto;
+}
+
+/* technique used to define a flexible css box with a defined aspect ratio */
+/* reference: https://css-tricks.com/aspect-ratio-boxes/ */
+
+.album-bg {
+  height: 0;
+  padding-top: calc(455 / 565 * 100%);
+  position: relative;
+}
+.album-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.album-block {
+  position: absolute;
+}
+.album-block-blue {
+  background-color: #76a5ed;
+}
+.album-block-purple {
+  background-color: #d13b94;
+}
+.album-block-red {
+  background-color: #d13833;
+}
+.album-block-green {
+  background-color: #62b855;
+}
+.album-block-orange {
+  background-color: #d45f2a;
+}
+.album-block-black {
+  background-color: #242424;
+}
+#album-block-000 {
+  bottom: 0;
+  height: 49.89%;
+  width: 100%;
+}
+#album-block-001 {
+  height: 17.58%;
+  width: calc(455 / 565 * 17.58%);
+}
+#album-block-002 {
+  left: calc(455 / 565 * 36.70%);
+  height: 36.05%;
+  width: calc(455 / 565 * 38.68%);
+}
+#album-block-003 {
+  left: 343px;
+  height: 24.18%;
+  width: calc(455 / 565 * 17.36%);
+}
+#album-block-004 {
+  left: 422px;
+  height: 24.18%;
+  width: calc(455 / 565 * 31.42%);
 }
