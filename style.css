@@ -13,6 +13,14 @@
 /* extra large screens, TV */
 @media (min-width: 1201px) {
 }
+body {
+  background-color: #eaeae2;
+}
+#main {
+  padding: 30px;
+  margin: 30px;
+  background-color: #e5e4dd;
+}
 h1, h2, p {
   text-align: center;
 }
