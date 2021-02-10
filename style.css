@@ -64,7 +64,7 @@ a {
 .blue {
   background-color: #76a5ed;
 }
-.purple {
+.magenta {
   background-color: #d13b94;
 }
 .red {
@@ -92,90 +92,42 @@ a {
 /* to achieve percentage values mulitply by the following constants */
 /* height: Hpx / 4.55 = H% */
 /* width: Wpx / 4.55 * 0.8053097345132743 = W% */
-#album-rect-000 {
-  top: 50.11%;
-  height: 49.89%;
-  width: 100%;
-}
-#album-rect-001 {
-  height: 17.58%;
-  width: 14.16%;
-}
-#album-rect-002 {
-  left: 29.55%;
-  height: 36.05%;
-  width: 31.15%;
-}
-#album-rect-003 {
-  left: 60.70%;
-  height: 24.18%;
-  width: 13.98%;
-}
-#album-rect-004 {
-  left: 74.69%;
-  height: 24.18%;
-  width: 25.30%;
-}
-#album-rect-005 {
-  top: 50.11%;
-  height: 25.71%;
-  width: 11.68%;
-}
-#album-rect-006 {
-  top: 75.82%;
-  height: 24.18%;
-  width: 24.60%;
-}
-#album-rect-007 {
-  top: 57.58%;
-  left: 36.64%;
-  height: 12.09%;
-  width: 22.65%;
-}
-#album-rect-008 {
-  top: 69.67%;
-  left: 46.55%;
-  height: 15.85%;
-  width: 12.74%;
-}
-#album-rect-009{
-  top: 57.58%;
-  left: 59.29%;
-  height: 27.91%;
-  width: 12.92%;
-}
-#album-rect-010 {
-  top: 57.58%;
-  left: 76.11%;
-  height: 42.42%;
-  width: 23.89%;
-}
-#album-rect-011 {
-  top: 18.24%;
-  left: 23.36%;
-  height: 7.47%;
-  width: 6.19%;
-}
-#album-rect-012 {
-  top: 22.42%;
-  left: 29.55%;
-  height: 13.63%;
-  width: 3.01%;
-}
-#album-rect-013 {
-  left: 48.50%;
-  height: 15.16%;
-  width: 6.19%;
-}
-#album-rect-014 {
-  top: 15.16%;
-  left: 43.36%;
-  height: 5.71%;
-  width: 5.13%;
-}
-#album-rect-015 {
-  top: 20.88%;
-  left: 48.50%;
-  height: 15.16%;
-  width: 12.21%;
-}
+#album-rect-000 { top: 50.11%; height: 49.89%; width: 100%; }
+#album-rect-001 { height: 17.58%; width: 14.16%; }
+#album-rect-002 { left: 29.55%; height: 36.05%; width: 31.15%; }
+#album-rect-003 { left: 60.70%; height: 24.18%; width: 13.98%; }
+#album-rect-004 { left: 74.69%; height: 24.18%; width: 25.30%; }
+#album-rect-005 { top: 50.11%; height: 25.71%; width: 11.68%; }
+#album-rect-006 { top: 75.82%; height: 24.18%; width: 24.60%; }
+#album-rect-007 { top: 57.58%; left: 36.64%; height: 12.09%; width: 22.65%; }
+#album-rect-008 { top: 69.67%; left: 46.55%; height: 15.85%; width: 12.74%; }
+#album-rect-009 { top: 57.58%; left: 59.29%; height: 27.91%; width: 12.92%; }
+#album-rect-010 { top: 57.58%; left: 76.11%; height: 42.42%; width: 23.89%; }
+#album-rect-011 { top: 18.24%; left: 23.36%; height: 7.47%; width: 6.19%; }
+#album-rect-012 { top: 22.42%; left: 29.55%; height: 13.63%; width: 3.01%; }
+#album-rect-013 { left: 48.50%; height: 15.16%; width: 6.19%; }
+#album-rect-014 { top: 15.16%; left: 43.36%; height: 5.71%; width: 5.13%; }
+#album-rect-015 { top: 20.88%; left: 48.50%; height: 15.16%; width: 12.21%; }
+#album-rect-016 { top: 24.17%; left: 60.71%; height: 4.62%; width: 4.07%; }
+#album-rect-017 { top: 24.18%; left: 64.78%; height: 12.09%; width: 9.91%; }
+#album-rect-018 { top: 36.26%; left: 74.69%; height: 12.09%; width: 9.73%; }
+#album-rect-019 { top: 11.87%; left: 74.69%; height: 12.31%; width: 9.91%; }
+#album-rect-020 { top: 27.91%; left: 67.43%; height: 4.62%; width: 4.25%; }
+#album-rect-021 { top: 50.11%; height: 7.47%; width: 6.02%; }
+#album-rect-022 { top: 75.82%; left: 14.87%; height: 17.80%; width: 14.51%; }
+#album-rect-023 { top: 57.58%; left: 24.42%; height: 5.71%; width: 4.96%; }
+#album-rect-024 { top: 50.11%; left: 29.38%; height: 7.47%; width: 7.26%; }
+#album-rect-025 { top: 57.58%; left: 29.38%; height: 18.24%; width: 7.26%; }
+#album-rect-026 { top: 75.82%; left: 33.45%; height: 3.74%; width: 3.19%; }
+#album-rect-027 { top: 50.11%; left: 36.64%; height: 7.47%; width: 11.68%; }
+#album-rect-028 { top: 43.74%; left: 48.32%; height: 13.85%; width: 10.97%; }
+#album-rect-029 { top: 69.67%; left: 36.64%; height: 11.43%; width: 9.91%; }
+#album-rect-030 { top: 81.10%; left: 43.00%; height: 4.40%; width: 3.54%; }
+#album-rect-031 { top: 85.49%; left: 43.00%; height: 14.51%; width: 10.09%; }
+#album-rect-032 { top: 85.49%; left: 53.10%; height: 14.51%; width: 6.19%; }
+#album-rect-033 { top: 85.49%; left: 59.29%; height: 14.51%; width: 12.92%; }
+#album-rect-034 { top: 57.58%; left: 72.21%; height: 7.25%; width: 6.55%; }
+#album-rect-035 { top: 64.84%; left: 72.21%; height: 23.52%; width: 19.12%; }
+#album-rect-036 { top: 88.35%; left: 72.21%; height: 11.65%; width: 3.89%; }
+#album-rect-037 { top: 81.54%; left: 19.12%; height: 6.15%; width: 5.48%; }
+#album-rect-038 { top: 72.09%; left: 77.70%; height: 9.01%; width: 8.14%; }
